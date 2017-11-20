@@ -1,10 +1,9 @@
-# GenericAdapter
-通用的listviewAdapter
 #通用的listviewAdapter
 ##怎么使用
 1.将代码下载,里面有2个类,将这两个类拷贝到你自己的项目
 2.继承FuBaseAdapter
-'''
+
+```
 public class HomeFuAdapter extends FuBaseAdapter<HomeBean>
 {
     // 构造方法
@@ -31,4 +30,4 @@ public class HomeFuAdapter extends FuBaseAdapter<HomeBean>
         helper.setText(R.id.home_item_text , item.getTitle());
         helper.setText(R.id.home_item_price , item.getPrice());
     }
-'''
+```
